@@ -8,7 +8,7 @@ import uvicorn
 
 BASE_DIR = Path(__file__).parent
 DB_PATH = BASE_DIR / "records.db"
-AUTH_TOKEN = os.environ.get("AUTH_TOKEN", "换成你的密码")
+AUTH_TOKEN = os.environ.get("AUTH_TOKEN", "wsymjq20061216.")
 
 def init_db():
     conn = sqlite3.connect(str(DB_PATH))
